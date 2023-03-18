@@ -1,0 +1,56 @@
+Arguments: 
+  /Users/ajaykumarupadhyay/.nvm/versions/node/v18.14.2/bin/node /Users/ajaykumarupadhyay/.nvm/versions/node/v18.14.2/bin/yarn add --legacy-peer-deps @react=three/fiber @react-three/drei math react-tilt react-vertical-timeline-component @emailjs@browser framer-motion react-router-dom
+
+PATH: 
+  /Users/ajaykumarupadhyay/.nvm/versions/node/v18.14.2/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/ajaykumarupadhyay/.nvm/versions/node/v18.14.2/bin:/Users/ajaykumarupadhyay/Library/Android/sdk/emulator:/Users/ajaykumarupadhyay/Library/Android/sdk/platform-tools:/Users/ajaykumarupadhyay/Library/Android/sdk/emulator:/Users/ajaykumarupadhyay/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.14.2
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@emailjs: Request "https://registry.yarnpkg.com/@emailjs" returned a 405
+      at params.callback [as _callback] (/Users/ajaykumarupadhyay/.nvm/versions/node/v18.14.2/lib/node_modules/yarn/lib/cli.js:66154:18)
+      at self.callback (/Users/ajaykumarupadhyay/.nvm/versions/node/v18.14.2/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (/Users/ajaykumarupadhyay/.nvm/versions/node/v18.14.2/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (/Users/ajaykumarupadhyay/.nvm/versions/node/v18.14.2/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "port",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+      "@types/react": "^18.0.27",
+      "@types/react-dom": "^18.0.10",
+      "@vitejs/plugin-react": "^3.1.0",
+      "vite": "^4.1.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
